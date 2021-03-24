@@ -1,0 +1,50 @@
+body{
+	background-color: #3e3b3c;
+	padding: 0px 70px;
+	margin: auto;
+	width: 900px;
+
+}
+header div {
+	display: inline-block;
+	padding: 0px;
+}
+.banner p{
+	display: inline-block;
+	align-content: right;
+}
+.topLeftLogo img {
+
+	margin : -65px 0px 0px 0px ;
+}
+.topLeftLogo h2,h1 {
+	margin : 0px;
+}
+
+.pubCenter img{
+	width: 400px;
+}
+.topRightLinks{
+	vertical-align: top;
+}
+.topRightLinks li,ul{
+	display: inline-block;
+	margin: 0px;
+}
+.topRightLinks a{
+	color:white;
+}
+.mainPage {
+	background-color: white;
+}
+
+.leftMenu, .formulaire {
+	display: inline-block;
+}
+
+footer li{
+	display: inline-block;
+}
+footer a{
+	color:white;
+}
