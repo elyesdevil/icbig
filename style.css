@@ -144,3 +144,47 @@ header div {
 	text-transform: uppercase;
 	font-weight: normal;
 }
+/* TABLEAU */
+table
+{
+	width: 200px;
+	border-collapse: collapse;
+	
+}
+caption 
+{
+	border-bottom: 1px solid #000;
+}
+td,th 
+{
+	border : 1px solid #000;
+}
+.ligneEntete
+{
+	background-color: #b6c8e0;
+}
+.ligne1, .ligne2, .ligne3
+{
+	background-color: #d9e1ba;
+}
+#top3
+{
+	font-weight: bold;
+}
+.ligne4, .ligne6
+{
+	background-color: #e0dcdc;
+}
+.ligne5
+{
+	background-color: #c0bcbc;
+}
+.ligne7
+{
+	
+}
+tfoot{
+	text-align: center;
+	font-style: italic;
+	background-color: #c0cce4;
+}
