@@ -1,50 +1,146 @@
-body{
+body
+{
 	background-color: #3e3b3c;
-	padding: 0px 70px;
+	font-family: sans-serif;
+	font-size : 80%;
 	margin: auto;
-	width: 900px;
-
+}
+/* BANIERE COOKIES */
+.banner
+{
+	position: relative;
+	top : 0px;
+	padding: 8px 100px 4px 50px;
+	background-color: #1c95c3;
+	color: white;
+	font-size:15px;
+}
+.banner #X 
+{
+	text-decoration: none;	
+	color: white;
+	padding-top: 6px;
+}
+.banner a:link 
+{
+	color : silver;
+}
+.banner a:visited 
+{
+	color : silver;
+}
+.banner #X 
+{
+	position: absolute;
+	right: 45px;
+	top: 0px;
+}
+/* CORPS PAGE */
+#principale 
+{
+	width : 800px;
+	margin : auto;
+}
+/* ENTETE */
+header 
+{
+	position: relative;
+}
+header h1, header h2 
+{
+	display: none;
 }
 header div {
 	display: inline-block;
-	padding: 0px;
+	padding : 0px 10px;
 }
-.banner p{
+#logo-icbig
+{
+	padding-left : 0px;
+}
+#logo-icbig img
+{
+	width: 170px;
+}
+#banner img
+{
+	width : 340px;
+	position: absolute;
+	top: 20px;
+}
+ #search-menu
+{
+	position: absolute;
+	right: 0px;
+	text-align: right;
+}
+#search-menu li 
+{
 	display: inline-block;
-	align-content: right;
-}
-.topLeftLogo img {
-
-	margin : -65px 0px 0px 0px ;
-}
-.topLeftLogo h2,h1 {
-	margin : 0px;
+	padding : 3px;
 }
 
-.pubCenter img{
-	width: 400px;
+#search-menu a
+{
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
 }
-.topRightLinks{
-	vertical-align: top;
+#recherche
+{
+	width: 160px;
 }
-.topRightLinks li,ul{
-	display: inline-block;
-	margin: 0px;
-}
-.topRightLinks a{
-	color:white;
-}
-.mainPage {
+/* PAGE PRINCIPALE */
+.mainPage 
+{
 	background-color: white;
 }
-
-.leftMenu, .formulaire {
+.mainPage div
+{
+	display: inline-grid;
+}
+/* MENU NAVBAR */
+.menuNavbar
+{
+	width: 206px;
+}
+.menuNavbar h2
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	margin : 0px;
+	padding : 3px;
+	width: 200px;
+	background-color: #d9f7fb;
+	color: #326fae ;
+}
+.menuNavbar li
+{
+	list-style-type: none;
+}
+.menuNavbar figure, .menuNavbar blockquote
+{
+	margin: 3px;
+}
+.menuNavbar figcaption
+{
+	text-align: right;
+	padding-right: 3px;
+}
+/* PAGE CENTRALE */
+.centrale
+{
+	width: 590px;
+}
+.statistics li
+{
 	display: inline-block;
 }
-
-footer li{
-	display: inline-block;
-}
-footer a{
-	color:white;
+.statistics h2 {
+	background-color:#fcb204;
+	color: white;
+	padding : 3px;
+	margin : 0px;
+	text-transform: uppercase;
+	font-weight: normal;
 }
