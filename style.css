@@ -1,50 +1,296 @@
-body{
+body
+{
 	background-color: #3e3b3c;
-	padding: 0px 70px;
+	font-family: sans-serif;
+	font-size : 80%;
 	margin: auto;
-	width: 900px;
-
+	
+}
+/* BANIERE COOKIES */
+.banner
+{
+	position: relative;
+	top : 0px;
+	padding: 8px 100px 4px 50px;
+	background-color: #1c95c3;
+	color: white;
+	font-size:15px;
+}
+.banner #X 
+{
+	text-decoration: none;	
+	color: white;
+	padding-top: 6px;
+}
+.banner #X a:active
+{
+	display: none;
+}
+.banner a:link 
+{
+	color : silver;
+}
+.banner a:visited 
+{
+	color : silver;
+}
+.banner #X 
+{
+	position: absolute;
+	right: 45px;
+	top: 0px;
+}
+/* CORPS PAGE */
+#principale 
+{
+	width : 800px;
+	margin : auto;
+}
+/* ENTETE */
+header 
+{
+	position: relative;
+}
+header h1, header h2 
+{
+	display: none;
 }
 header div {
 	display: inline-block;
-	padding: 0px;
+	padding : 0px 10px;
 }
-.banner p{
+#logo-icbig
+{
+	padding-left : 0px;
+}
+#logo-icbig img
+{
+	width: 170px;
+}
+#banner img
+{
+	width : 340px;
+	position: absolute;
+	top: 20px;
+}
+ #search-menu
+{
+	position: absolute;
+	right: 0px;
+	text-align: right;
+}
+#search-menu li 
+{
 	display: inline-block;
-	align-content: right;
-}
-.topLeftLogo img {
-
-	margin : -65px 0px 0px 0px ;
-}
-.topLeftLogo h2,h1 {
-	margin : 0px;
+	padding : 3px;
 }
 
-.pubCenter img{
-	width: 400px;
+#search-menu a
+{
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
 }
-.topRightLinks{
-	vertical-align: top;
+#recherche
+{
+	width: 160px;
 }
-.topRightLinks li,ul{
-	display: inline-block;
-	margin: 0px;
-}
-.topRightLinks a{
-	color:white;
-}
-.mainPage {
+/* PAGE PRINCIPALE ---------------------- */ 
+.mainPage 
+{
 	background-color: white;
+	/* border: 2px solid red; */
+	
+}
+.mainPage
+{
+	display: flex;
+	
+
+}
+/* MENU NAVBAR --------------------------- */
+.menuNavbar
+{
+	width: 206px;
+	/* border: 2px solid red; */
+}
+.menuNavbar h2
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	margin : 0px;
+	padding : 3px;
+	width: 200px;
+	background-color: #d9f7fb;
+	color: #326fae ;
+}
+.menuNavbar li
+{
+	list-style-type: none;
+}
+.menuNavbar figure, .menuNavbar blockquote
+{
+	margin: 3px;
+}
+.menuNavbar figcaption
+{
+	text-align: right;
+	padding-right: 3px;
+}
+/* PAGE CENTRALE ------------------------ */
+.centrale
+{
+	display: flex;
+	width: 600px;
+	/* border: 2px solid red; */
+	flex-direction: column;
+}
+.statistics{ /*--------------------------*/
+	/* border: 2px solid red; */
+}
+.containFormReseau
+{
+	display: flex;
+	flex-direction: row;
+}
+.reseauxSoc img
+{
+	width: 200px;
+	padding-left: 20px;
+	padding-top:0px;
+	/* border: 2px solid red; */
+}
+.formulaire /* --------------------------*/
+{
+	/* border: 2px solid red; */
+	width: 300px;
+	border-right: 1px dotted black;
+	padding:10px 10px 10px 50px;
 }
 
-.leftMenu, .formulaire {
+.statistics li
+{
 	display: inline-block;
+}
+.statistics h2 {
+	background-color:#fcb204;
+	color: white;
+	padding : 3px;
+	margin : 0px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+button 
+{
+	border: none;	
+}
+button img
+{
+	width: 200px;	
+
 }
 
-footer li{
-	display: inline-block;
+
+.formulaire span
+{
+	font-weight: bold;
+	font-style: italic;
 }
-footer a{
-	color:white;
+.cache
+{
+	display: none;
+}
+.containBottom
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+table tr .green
+{
+	color: green;
+	font-weight: bold;
+}
+table tr  .red
+{
+	color: red;
+	font-weight: bold;
+}
+.video /* --------------------------*/
+{
+	width : 300px;
+	/* border: 2px solid red; */
+	
+}
+.video iframe {
+	border: 0;
+}
+/* TABLEAU */
+table
+{
+	width: 200px;
+	border-collapse: collapse;	
+	
+}
+.tableau /* --------------------------*/
+{
+	
+	width: 200px;
+	padding:0;
+	
+	
+}
+.tableau p 
+{
+	
+	text-align: justify;
+	font-size: 10px;
+}
+.tableau a
+{
+	float: right;
+}
+.tableau a img
+{
+	
+	padding : 3px;
+	width: 15px;
+}
+caption 
+{
+	border-bottom: 1px solid #000;
+}
+td,th 
+{
+	border : 1px solid #000;
+}
+.ligneEntete
+{
+	background-color: #b6c8e0;
+}
+.ligne1, .ligne2, .ligne3
+{
+	background-color: #d9e1ba;
+}
+#top3
+{
+	font-weight: bold;
+}
+.ligne4, .ligne6
+{
+	background-color: #e0dcdc;
+}
+.ligne5
+{
+	background-color: #c0bcbc;
+}
+.ligne7
+{
+	
+}
+tfoot{
+	text-align: center;
+	font-style: italic;
+	background-color: #c0cce4;
 }
