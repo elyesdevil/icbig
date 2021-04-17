@@ -22,10 +22,7 @@ body
 	color: white;
 	padding-top: 6px;
 }
-.banner #X a:active
-{
-	display: none;
-}
+
 .banner a:link 
 {
 	color : silver;
