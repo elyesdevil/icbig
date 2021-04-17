@@ -105,26 +105,47 @@
 				<div class="containFormReseau">
 					<div class="formulaire">
 						<form method="get" action="#">
-							<label for ="identifiant" class="cache">Identifiant :</label>
-							<input id ="identifiant" name= "id" type ="text" placeholder="Identifiant" required> <br>
-							<label for = "email" class="cache">E-mail :</label>
-							<input id ="email" name= "mail" type = "email" placeholder="E-mail"><br>
-							<label for = "confirm-email" class="cache">Confirmer e-mail :</label>
-							<input id ="confirm-email" name= "confirmMail" type = "email" placeholder="Confirmer e-mail"><br>
-							<label for = "mdp" class="cache">Mot de passe :</label>
-							<input id ="mdp" name= "password" type = "password" placeholder="Mot de passe"><br>
-							<label for = "date-naiss">Date de naissance :</label>
-							<input id ="date-naiss" name= "dateNaiss" type = "date" ><br>
-							<label for="pays">Pays :</label>
-							<select name ="liste pays" id="pays" >
-								<option value ="Allemagne"> Allemagne</option>
-								<option value ="Belgique" selected> Belgique</option>
-								<option value ="Canada"> Canada</option>
-								<option value ="France"> France</option>
-								<option value ="Suisse"> Suisse</option>
-							</select><br>
-							<input type="radio" value="Homme" name = "sexe"> Homme
-							<input type="radio" value="Femme" name="sexe"> Femme <br>						
+							<p> 
+								<label for ="identifiant" class="cache">Identifiant :</label>
+								<input id ="identifiant" name= "id" type ="text" placeholder="Identifiant" required> 
+							</p>
+							<p>
+								<label for = "email" class="cache">E-mail :</label>
+								<input id ="email" name= "mail" type = "email" placeholder="E-mail">
+							</p>
+							<p>
+								<label for = "confirm-email" class="cache">Confirmer e-mail :</label>
+								<input id ="confirm-email" name= "confirmMail" type = "email" placeholder="Confirmer e-mail">
+							</p>
+							<p>
+								<label for = "mdp" class="cache">Mot de passe :</label>
+								<input id ="mdp" name= "password" type = "password" placeholder="Mot de passe">
+							</p>
+							<p> 
+								<label for = "date-naiss">Date de naissance :</label>
+								<input id ="date-naiss" name= "dateNaiss" type = "date" >
+							</p>
+							<p>
+								<label for="pays">Pays :</label>
+								<select name ="liste pays" id="pays" >
+									<option value ="Allemagne"> Allemagne</option>
+									<option value ="Belgique" selected> Belgique</option>
+									<option value ="Canada"> Canada</option>
+									<option value ="France"> France</option>
+									<option value ="Suisse"> Suisse</option>
+								</select>
+							</p>
+							<p>
+								<input type="radio" value="Homme" name = "sexe"> Homme
+								<input type="radio" value="Femme" name="sexe"> Femme 
+							</p>
+							<p id="checkbox">
+								<input type ="checkbox" value="conditions" >
+								J'accepte les <a href="#">Conditions d'utilisation</a> et la <a href ="#">Politique de confidentialité</a> de ICBig. 
+							</p>
+							<button type="submit" value ="S'inscrire">
+								<img src="img/signUpBtn.jpg" alt="signUp">
+							</button>					
 						</form>
 					</div>		
 					<div class="reseauxSoc">
@@ -132,16 +153,8 @@
 					</div>
 				</div>	
 				<div class="styleButton">
-					<input type ="checkbox" value="conditions">
-
-							<input type ="checkbox" value="conditions">
-							J'accepte les <a href="#">Conditions d'utilisation</a> et la <a href ="#">Politique de confidentialité</a> de ICBig. <br>
-							<button type="submit" value ="S'inscrire">
-								<img src="img/signUpBtn.jpg" alt="signUp">
-							</button>
-						</form>
-					</div>
-			
+					
+				</div>
 				<div class="containBottom">
 					<div class="video">
 						<h3>Comment jouer ?</h3>
@@ -183,21 +196,18 @@
 								</tr>
 								<tr class="ligne4">
 									<td class="green">&#8599;</td> 
-									<td></td> 
 									<td>4</td> 
 									<td>Dillinguer</td> 
 									<td>4000</td>
 								</tr>
 								<tr class="ligne5">
 									<td class="red">&#8600;</td> 
-									<td></td> 
 									<td>5</td> 
 									<td>BillyBoy</td> 
 									<td>3995</td>
 								</tr>
 								<tr class="ligne6">
 									<td class ="red">&#8600;</td> 
-									<td></td> 
 									<td>6</td> 
 									<td>HopeLess</td> 
 									<td>3500</td>
@@ -212,7 +222,7 @@
 						<a href="#"><img src="img/top.png" alt="top">Haut de page</a>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 	
 			

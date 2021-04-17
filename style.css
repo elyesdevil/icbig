@@ -145,19 +145,18 @@ header div {
 	display: flex;
 	flex-direction: row;
 }
+.reseauxSoc
+{
+
+	border-left: 1px dotted black;
+	height: 200px;
+}
 .reseauxSoc img
 {
 	width: 200px;
 	padding-left: 20px;
 	padding-top:0px;
 }
-.formulaire /* --------------------------*/
-{
-	width: 300px;
-	border-right: 1px dotted black;
-	padding:10px 10px 10px 50px;
-
-
 .statistics li
 {
 	display: inline-block;
@@ -170,11 +169,20 @@ header div {
 	text-transform: uppercase;
 	font-weight: normal;
 }
+.formulaire /* --------------------------*/
+{
+	width: 300px;
+	padding:10px 10px 10px 50px;
+}
+.formulaire form #checkbox
+{
+	width : 500px;
+}
 button 
 {
 	border: none;	
 }
-button img
+form button img
 {
 	width: 200px;	
 
@@ -213,11 +221,9 @@ table tr  .red
 	font-weight: bold;
 }
 
-.video /* --------------------------*/
+.video 
 {
-	width : 300px;
-	/* border: 2px solid red; */
-	
+	width : 300px;	
 }
 .video iframe {
 	border: 0;
@@ -231,11 +237,8 @@ table
 }
 .tableau /* --------------------------*/
 {
-	
 	width: 200px;
 	padding:0;
-	
-	
 }
 .tableau p 
 {
