@@ -22,7 +22,10 @@ body
 	color: white;
 	padding-top: 6px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8da11621cc18c987a0cfaba500d3fb8dcb596905
 .banner a:link 
 {
 	color : silver;
@@ -97,12 +100,18 @@ header div {
 {
 	background-color: white;
 	/* border: 2px solid red; */
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 8da11621cc18c987a0cfaba500d3fb8dcb596905
 }
 .mainPage
 {
 	display: flex;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 8da11621cc18c987a0cfaba500d3fb8dcb596905
 
 }
 /* MENU NAVBAR --------------------------- */
@@ -137,14 +146,20 @@ header div {
 /* PAGE CENTRALE ------------------------ */
 .centrale
 {
+<<<<<<< HEAD
 	display: flex;
 	width: 600px;
 	/* border: 2px solid red; */
 	flex-direction: column;
+=======
+	width: 590px;
+	/* border: 2px solid red; */
+>>>>>>> 8da11621cc18c987a0cfaba500d3fb8dcb596905
 }
 .statistics{ /*--------------------------*/
 	/* border: 2px solid red; */
 }
+<<<<<<< HEAD
 .containFormReseau
 {
 	display: flex;
@@ -163,6 +178,12 @@ header div {
 	width: 300px;
 	border-right: 1px dotted black;
 	padding:10px 10px 10px 50px;
+=======
+
+.formulaire /* --------------------------*/
+{
+	/* border: 2px solid red; */
+>>>>>>> 8da11621cc18c987a0cfaba500d3fb8dcb596905
 }
 
 .statistics li
@@ -177,6 +198,7 @@ header div {
 	text-transform: uppercase;
 	font-weight: normal;
 }
+<<<<<<< HEAD
 button 
 {
 	border: none;	
@@ -188,6 +210,15 @@ button img
 }
 
 
+=======
+.formulaire button,img
+{
+	width: 150px;
+	border: none;
+	
+}
+
+>>>>>>> 8da11621cc18c987a0cfaba500d3fb8dcb596905
 .formulaire span
 {
 	font-weight: bold;
@@ -204,6 +235,7 @@ button img
 	justify-content: space-around;
 
 }
+<<<<<<< HEAD
 table tr .green
 {
 	color: green;
@@ -214,6 +246,8 @@ table tr  .red
 	color: red;
 	font-weight: bold;
 }
+=======
+>>>>>>> 8da11621cc18c987a0cfaba500d3fb8dcb596905
 .video /* --------------------------*/
 {
 	width : 300px;
