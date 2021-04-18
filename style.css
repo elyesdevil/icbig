@@ -116,6 +116,7 @@ header div {
 .menuNavbar
 {
 	width: 206px;
+	
 }
 .menuNavbar figcaption
 {
@@ -133,8 +134,34 @@ header div {
 }
 .menuNavbar li
 {
+
 	list-style-type: none;
 }
+.menuNavbar ul
+{
+	padding: 0px;
+}
+.menuNavbar li a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	background-repeat: no-repeat;
+	display: block;
+	background-image: url(img/menu_icons.png);
+	background-position: 2px right;
+	border-bottom: 1px dotted black;
+	padding: 10px 0px 10px 40px;
+}
+.menuNavbar a:nth-last-of-type()
+{
+	/* border:none; */
+}
+.menuNavbar li a:hover
+{
+	background-color:yellow;
+}
+
 .menuNavbar figure, .menuNavbar blockquote
 {
 	margin: 3px;
@@ -157,6 +184,31 @@ header div {
 	border:1px dotted black;
 	margin : 0 20px;
 }
+.breadcrumbs {
+	margin-top: 3px;
+	padding-left: 20px;
+}
+.arianeItem
+{
+	display: inline-block;
+}
+.arianeItem:not(:last-of-type)::after
+{
+	content: '>>';
+}
+.arianeLink 
+{
+	color : blue;
+	font-style: italic;
+	text-transform: capitalize;
+}
+.arianeLink-active
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	
+}
 .txtIntroFormulaire img
 {
 	float: left;
@@ -177,15 +229,6 @@ header div {
 	width: 200px;
 	padding-left: 20px;
 	padding-top:10px;
-}
-.statistics ul
-{
-	margin-top: 3px;
-	padding-left: 20px;
-}
-.statistics li
-{
-	display: inline-block;
 }
 .statistics h2 {
 	background-color:#fcb204;
