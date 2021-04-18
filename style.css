@@ -4,6 +4,9 @@ body
 	font-family: sans-serif;
 	font-size : 80%;
 	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	
 }
 /* BANIERE COOKIES */
@@ -39,40 +42,44 @@ body
 /* CORPS PAGE */
 #principale 
 {
-	width : 800px;
+	width : 850px;
 	margin : auto;
 }
 /* ENTETE */
 header 
 {
-	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center
 }
 header h1, header h2 
 {
 	display: none;
 }
 header div {
-	display: inline-block;
-	padding : 0px 10px;
+	padding : 0px;
 }
 #logo-icbig
 {
-	padding-left : 0px;
+	width: 200px;
+	padding:0;
 }
 #logo-icbig img
 {
 	width: 170px;
 }
+#banner
+{
+	width: 350px;
+}
 #banner img
 {
 	width : 340px;
-	position: absolute;
-	top: 20px;
 }
  #search-menu
 {
-	position: absolute;
-	right: 0px;
+	width: 250px;
 	text-align: right;
 }
 #search-menu li 
@@ -134,10 +141,18 @@ header div {
 .centrale
 {
 	display: flex;
-	width: 600px;
+	width: 650px;
 	flex-wrap: wrap;
 	flex-direction: column;
-	width: 590px;
+}
+.PartieHautDotted
+{
+	border:1px dotted black;
+	margin : 0 20px;
+}
+.txtIntroFormulaire img
+{
+	float: left;
 	
 }
 .containFormReseau
@@ -147,15 +162,19 @@ header div {
 }
 .reseauxSoc
 {
-
 	border-left: 1px dotted black;
-	height: 200px;
+	height: 170px;
 }
 .reseauxSoc img
 {
 	width: 200px;
 	padding-left: 20px;
-	padding-top:0px;
+	padding-top:10px;
+}
+.statistics ul
+{
+	margin-top: 3px;
+	padding-left: 20px;
 }
 .statistics li
 {
@@ -169,10 +188,10 @@ header div {
 	text-transform: uppercase;
 	font-weight: normal;
 }
+
 .formulaire /* --------------------------*/
 {
 	width: 300px;
-	padding:10px 10px 10px 50px;
 }
 .formulaire form #checkbox
 {
@@ -180,14 +199,32 @@ header div {
 }
 button 
 {
-	border: none;	
+	border: none;
+
 }
 form button img
 {
 	width: 200px;	
-
 }
-.formulaire button,img
+form p
+{
+	margin: 5px;
+}
+form p #pays
+{
+	width: 153px;
+	float: right;
+	margin-right:5px;
+}
+form p #date-naiss
+{
+	margin-left:15px;
+}
+form
+{
+/* font-weight: bold; */
+}
+.formulaire button img
 {
 	width: 150px;
 	border: none;
@@ -207,9 +244,7 @@ form button img
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-
 }
-
 table tr .green
 {
 	color: green;
@@ -292,4 +327,34 @@ tfoot{
 	text-align: center;
 	font-style: italic;
 	background-color: #c0cce4;
+}
+/* Footer bas de page */
+footer
+{
+	width: 850px;
+	margin-top: 20px;
+	border-top: 1px dotted white;
+	text-align: center;
+}
+footer ul
+{
+	list-style-type: none;
+}
+footer li 
+{
+	display: inline-block;
+	padding: 0 10px;
+}
+footer li a 
+{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+footer p
+{
+	margin: 0;
+	color: white;
+	font-size: .8em;
 }
