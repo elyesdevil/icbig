@@ -127,10 +127,12 @@ header div {
 	text-transform: uppercase;
 	font-weight: normal;
 	margin : 0px;
-	padding : 3px;
+	padding : 3px 3px 3px 10px;
 	width: 200px;
 	background-color: #d9f7fb;
-	color: #326fae ;
+	color: #1c65c0 ;
+	text-shadow: 0px 1px 0px #214979;
+	font-size: 15px;
 }
 .menuNavbar li
 {
@@ -140,6 +142,7 @@ header div {
 .menuNavbar ul
 {
 	padding: 0px;
+	margin:3px;
 }
 .menuNavbar li a
 {
@@ -148,23 +151,42 @@ header div {
 	color: black;
 	background-repeat: no-repeat;
 	display: block;
-	background-image: url(img/menu_icons.png);
+	background-image: url(../img/menu_icons.png);
 	background-position: 2px right;
-	border-bottom: 1px dotted black;
-	padding: 10px 0px 10px 40px;
+	border-top: 1px dotted black;
+	padding: 8px 0px 8px 40px;
 }
-.menuNavbar a:nth-last-of-type()
+/* .menuNavbar li a:nth-last-of-type()
 {
-	/* border:none; */
-}
+	border:none ;
+}  */
 .menuNavbar li a:hover
 {
-	background-color:yellow;
+	background-color:#f1e58b;
 }
-
+.menuNavbar ul ul
+{
+	margin-left: 40px;
+}
+.menuNavbar ul ul li a
+{
+	border: none;
+	background-image: none;
+	font-style: italic;
+	padding: 3px;
+}
+.menuNavbar ul ul li a::before
+{
+	content: ': ';
+}
 .menuNavbar figure, .menuNavbar blockquote
 {
 	margin: 3px;
+}
+.menuNavbar figure
+{
+	margin: 20px;
+	font-size: 90%;
 }
 .menuNavbar figcaption
 {
@@ -183,6 +205,10 @@ header div {
 {
 	border:1px dotted black;
 	margin : 0 20px;
+}
+.PartieHautDotted a,#checkbox a
+{
+	color: #4bb0d3;
 }
 .breadcrumbs {
 	margin-top: 3px;
@@ -231,7 +257,7 @@ header div {
 	padding-top:10px;
 }
 .statistics h2 {
-	background-color:#fcb204;
+	background-color:#ffae01;
 	color: white;
 	padding : 3px;
 	margin : 0px;
@@ -270,15 +296,16 @@ form p #date-naiss
 {
 	margin-left:15px;
 }
-form
+/* form
 {
-/* font-weight: bold; */
-}
+	display: table;
+	font-weight: bold;
+} */
 .formulaire button img
 {
 	width: 150px;
 	border: none;
-	
+
 }
 .formulaire span
 {
@@ -300,7 +327,7 @@ table tr .green
 	color: green;
 	font-weight: bold;
 }
-table tr  .red
+table tr .red
 {
 	color: red;
 	font-weight: bold;
@@ -344,6 +371,8 @@ table td:nth-child(even)
 .tableau a
 {
 	float: right;
+	color: black;
+	padding: 2px;
 }
 .tableau a img
 {
@@ -351,7 +380,7 @@ table td:nth-child(even)
 	padding : 3px;
 	width: 15px;
 }
-caption 
+table caption 
 {
 	border-bottom: 1px solid #000;
 }
