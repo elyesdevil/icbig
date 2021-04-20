@@ -256,6 +256,15 @@ header div {
 	padding-left: 20px;
 	padding-top:10px;
 }
+.reseauxSoc ul
+{
+	padding: 0;
+}
+.reseauxSoc ul li
+{
+	
+	list-style-type: none;
+}
 .statistics h2 {
 	background-color:#ffae01;
 	color: white;
